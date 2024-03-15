@@ -18,7 +18,7 @@ const ChannelCard = ({ channelDetail, marginTop }) => (
       marginTop,
     }}
   >
-    <Link to={`/channel/${channelDetail?.id?.channelId}`}>
+    <Link to={`youtube-Clone/channel/${channelDetail?.id?.channelId}`}>
       <CardContent sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', textAlign: 'center', color: '#fff' }}>
         <CardMedia
           image={channelDetail?.snippet?.thumbnails?.high?.url || demoProfilePicture}
