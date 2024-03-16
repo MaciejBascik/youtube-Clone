@@ -11,6 +11,7 @@ const App = () => {
       <Routes>
         <Route exact path='/youtube-Clone/' element={<Feed />} />
         <Route path='/youtube-Clone/video/:id' element={<VideoDetail />} />
+        <Route path='/youtube-Clone/search/:searchTerm/video/:id' element={<VideoDetail />} />
         <Route path='/youtube-Clone/channel/:id' element={<ChannelDetail />} />
         <Route path='/youtube-Clone/search/:searchTerm' element={<SearchFeed />} />
       </Routes>
